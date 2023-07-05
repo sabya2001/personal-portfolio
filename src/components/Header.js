@@ -1,8 +1,11 @@
 import React from 'react'
+import './Header.css'
 
 const Header = (props) => {
   return (
-      <h1>{props.heading}</h1>
+    <header>
+      <h1 className='text-light-primary font-poppins '>{props.heading}</h1>
+    </header>
   )
 }
 

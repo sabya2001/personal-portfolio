@@ -1,0 +1,49 @@
+.btn-toggler-container{
+    height:263px;
+    width:46px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+    box-shadow:2px 2px 20px rgb(156, 151, 151);
+    padding:0px 15px;
+
+}
+.btn-generic{
+    font-size: 0px;
+    width: 75%;
+    height:75%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.btn-generic:hover{
+    cursor: pointer;
+}
+.btn-home{
+    background-image: url('../Assets/house.svg');
+    
+}
+.btn-contact{
+    background-image: url('../Assets/envelope-at.svg');
+}
+.btn-blogs{
+    background-image: url('../Assets/blogs.svg');
+}
+.btn-projects{
+    background-image: url('../Assets/projects.svg');
+}
+.btn-container{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:5px;
+}
+.line{
+    height: 25px;
+    width: 5px;
+    background-color: white;
+}
